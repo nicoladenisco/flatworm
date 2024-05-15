@@ -21,7 +21,7 @@ public class ConversionOption
   protected String name;
   protected String value;
 
-  ConversionOption(String name, String value)
+  public ConversionOption(String name, String value)
   {
     this.name = name;
     this.value = value;
