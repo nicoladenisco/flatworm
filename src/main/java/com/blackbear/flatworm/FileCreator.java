@@ -54,7 +54,7 @@ public class FileCreator implements Closeable
    *
    * @param config Full path to the FlatWorm XML configuration file
    * @param file Full path to output file
-   * @throws FlatwormCreatorException - wraps FlatwormConfigurationValueException & FlatwormUnsetFieldValueException
+   * @throws FlatwormCreatorException - wraps FlatwormConfigurationValueException FlatwormUnsetFieldValueException
    * (to reduce number of exceptions clients have to be aware of)
    */
   public FileCreator(String config, String file)

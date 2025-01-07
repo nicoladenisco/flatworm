@@ -233,10 +233,9 @@ public class Line
    * @param fieldChars the raw string data read from the field
    * @param re the RecordElement, which contains detailed information about the field
    *
-   * @throws FlatwormInputLineLengthException, FlatwormConversionException, FlatwormUnsetFieldValueException - wraps
-   * IllegalAccessException,InvocationTargetException,NoSuchMethodException
-   * @throws com.blackbear.flatworm.errors.FlatwormConversionException
-   * @throws com.blackbear.flatworm.errors.FlatwormUnsetFieldValueException
+   * @throws FlatwormInputLineLengthException
+   * @throws FlatwormConversionException
+   * @throws FlatwormUnsetFieldValueException
    */
   protected void mapField(String fieldChars, RecordElement re)
      throws FlatwormInputLineLengthException, FlatwormConversionException, FlatwormUnsetFieldValueException
@@ -259,8 +258,9 @@ public class Line
    *
    * @param inputLine the line of data read from the data file
    *
-   * @throws FlatwormInputLineLengthException, FlatwormConversionException, FlatwormUnsetFieldValueException - wraps
-   * IllegalAccessException,InvocationTargetException,NoSuchMethodException
+   * @throws FlatwormInputLineLengthException
+   * @throws FlatwormConversionException
+   * @throws FlatwormUnsetFieldValueException
    * @throws FlatwormInvalidRecordException
    * @throws FlatwormCreatorException
    */

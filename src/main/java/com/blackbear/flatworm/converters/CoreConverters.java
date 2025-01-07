@@ -30,10 +30,10 @@ import org.commonlib5.utils.StringOper;
  * <code>CoreConverters</code> contains methods to convert the most commonly encountered text types to native Java
  * types. It can be used as the <code>class</code> parameter in a Flatworm <code>converter</code> tag, with one of
  * the public methods listed below as the <code>method</code> parameter.
- * <p/>
+ * <p>
  * All converters (included the ones listed
  * here and any supplied by the user) should expect to accept and handle the following <code>conversion-option</code>s:
- * <p/>
+ * </p>
  * <dl>
  * <dt><code>justify</code></dt>
  * <dd>Defines the justification rule used to strip/add pad characters to this field. Used in conjunction with the
@@ -174,9 +174,9 @@ public class CoreConverters
   /**
    * Conversion function for <code>Date</code>, returns the source string with padding removed if requested,
    * converted into a date.
-   * <p/>
+   * <p>
    * In addition to the standard conversion options, dates also support the following:
-   * <p/>
+   * </p>
    * <dl>
    * <dt><code>format</code></dt>
    * <dd>A date format string in <code>SimpleDateFormat</code> syntax that defines the format to expect, default is
@@ -234,9 +234,9 @@ public class CoreConverters
   /**
    * Conversion function for <code>Double</code>, returns the source string with padding removed if requested,
    * converted into a double.
-   * <p/>
+   * <p>
    * In addition to the standard conversion options, doubles also support the following:
-   * <p/>
+   * </p>
    * <dl>
    * <dt><code>decimal-implied</code></dt>
    * <dd>If set to <code>true</code>, the decimal point is positionally implied rather than explicitly included.

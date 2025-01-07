@@ -34,8 +34,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * The <code>ConfigurationReader<code> class is used to initialize Flatworm with an XML configuration file which
- *  describes the format and conversion options to be applied to the input file to produce output beans.
+ * The <code>ConfigurationReader</code> class is used to initialize Flatworm with an XML configuration file which
+ * describes the format and conversion options to be applied to the input file to produce output beans.
  */
 public class ConfigurationReader
 {
